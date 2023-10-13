@@ -1,0 +1,8 @@
+import "testing"
+
+func TestCompile(t *testing.T) {
+	f := Foo()
+	if f != "foo" {
+		t.Errorf("Foo() = %s; want foo", f)
+	}
+}

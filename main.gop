@@ -1,0 +1,5 @@
+func Foo() string {
+	return "foo"
+}
+
+println("Hello Go+")
